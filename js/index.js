@@ -20,6 +20,7 @@ function playGame(playerChoice) {
 
   // set user Image
   document.getElementById("userPickImage").src = handOptions[playerChoice];
+  console.log(handOptions[playerChoice])
 
   const choices = ["rock", "paper", "scissors"];
   const computerChoice = choices[Math.floor(Math.random() * choices.length)];
